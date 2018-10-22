@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  api:
+    build: .
+    image: codejamninja/cors-server:latest
+    ports:
+      - 8080:8080
